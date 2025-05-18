@@ -25,7 +25,7 @@ def getWelcome():
     }
 
 # endpoint untuk menampilkan semua isi dataset
-@app.get("/data")
+@app.get("/profile")
 def getData():
     # melakukan proses pengambilan data dari csv
     df = pd.read_csv("dataset.csv")
